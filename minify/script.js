@@ -1,0 +1,1 @@
+function soma(n,r){return n+r}function subtrair(n,r){return n-r}

@@ -1,0 +1,36 @@
+section{
+    grid-area: section;
+    background-color: $branco-ursado;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 30px;
+    flex-direction: column;
+    h1{
+        font-size: 20pt;
+        color: $azul-ursinho;
+    }
+    p{
+        color: $azul-ursinho;
+        font-size: 14pt;
+    }
+}
+
+aside{
+    grid-area: aside;
+    background-color: $azul-ursinho;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    h1{
+        color: $branco-ursado;
+        font-size: 20pt;
+    }
+}
